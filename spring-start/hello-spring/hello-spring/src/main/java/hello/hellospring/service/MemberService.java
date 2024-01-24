@@ -9,6 +9,7 @@ import java.util.Optional;
 public class MemberService {
     private final MemberRepository memberRepository;
 
+
     public MemberService(MemberRepository memberRepository) {// 외부에서 넣어주도록.
         this.memberRepository = memberRepository;
     }
